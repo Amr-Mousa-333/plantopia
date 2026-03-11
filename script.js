@@ -13,7 +13,7 @@ function create_pro_element(data_pro) {
             <h2 class="title">${data_pro.title}</h2>
             <p class="details">${data_pro.details}</p>
             <div class="cart_nav dis_align_center gap_30">
-                <p>RS <span>${data_pro.price}</span>/-</p>
+                <p><i class="fas fa-dollar-sign    "></i> <span>${data_pro.price}</span>/-</p>
                 <button class="prodcut_cart_btn" data-id="${data_pro.id}">
                     <i class="fa-solid fa-cart-shopping"></i>
                 </button>
